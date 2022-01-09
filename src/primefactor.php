@@ -1,4 +1,12 @@
 <?php
+
+declare(strict_types=1);
+
+function factors(int $number): array
+{
+    throw new \BadFunctionCallException("Implement the factors function");
+}
+
 function getPrimo($num) {
  $contador = 1;
  for ($primeNumber=2; $primeNumber<=$num; $primeNumber++) {

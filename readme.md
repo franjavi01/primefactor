@@ -22,4 +22,13 @@ https://www.mathepower.com/es/factorizacion.php
 
 y por lo tanto 60 = 2*2*3*5
 
+### Tests:
+
+Añadidos a través de: 
+
+https://github.com/exercism/php/tree/main/exercises/practice/prime-factors
+
+Para comprobar errores a traves de terminal: 
+$ vendor/bin/phpunit
+
     
