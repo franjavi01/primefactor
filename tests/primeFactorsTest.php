@@ -20,9 +20,9 @@ class PrimeFactorsTest extends PHPUnit\Framework\TestCase
         $this->assertEquals(false, getPrimo(60));
     }
 
-    //public function testFactors(): void
-    //{
-    //    $this->assertSame([2, 2, 3, 5], factors(60));
-    //}
+    public function testFactors(): void
+    {
+        $this->assertSame([1, 2, 2, 3, 5], factor(60));
+    }
 
 }
